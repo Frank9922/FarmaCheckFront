@@ -1,7 +1,5 @@
 import { useDispatch, useSelector } from "react-redux"
 import { Link } from "react-router-dom"
-import { logout } from "../store/slices/auth/authSlice";
-import { api } from "../api/api";
 import { startLogout } from "../store/slices/auth/thunks";
 
 

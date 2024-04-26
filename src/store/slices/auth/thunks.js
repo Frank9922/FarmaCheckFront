@@ -1,3 +1,4 @@
+import { Navigate } from "react-router-dom";
 import { api } from "../../../api/api";
 import { login, logout, checkingCredentials } from "./authSlice";
 
@@ -22,7 +23,7 @@ export const startInLogin = ({email, password}) => {
             if(!data.ok) return dispatch(logout());
 
             localStorage.setItem('token', data.token);
-
+            
             return dispatch(login(data.user))
             
         } catch (error) {
