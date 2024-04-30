@@ -5,7 +5,7 @@ export const PageFarmacos = () => {
   return (
 
     <HomeLayout>
-        <div>PageFarmacos</div> 
+        <div>PageFarmacos</div>
     </HomeLayout>
     
   )

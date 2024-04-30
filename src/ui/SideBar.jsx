@@ -19,7 +19,7 @@ export const SideBar = () => {
 
 
   return (
-    <div className="d-flex flex-column flex-shrink-0 bg-primary rounded-pill mr-4">
+    <div className="d-flex flex-column flex-shrink-0 bg-primary bg-opacity-75 rounded-pill mr-4">
     <Link to='/check' className="d-flex justify-content-center pt-4 link-dark text-decoration-none">
         <DifferenceOutlined
          fontSize="large" 

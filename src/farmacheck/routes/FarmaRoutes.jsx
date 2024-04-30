@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import { PageCheck } from "../pages/PageCheck"
 import { PageFarmacos } from "../pages/PageFarmacos"
 

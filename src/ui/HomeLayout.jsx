@@ -1,3 +1,4 @@
+import { SearchComponent } from "./SearchComponent"
 import { SideBar } from "./SideBar"
 
 export const HomeLayout = ({children}) => {
@@ -9,8 +10,9 @@ export const HomeLayout = ({children}) => {
         <SideBar />
         
             <div className="col">
-                {/* <NavBar /> */}
-                <main className="bg-dark bg-opacity-50 white text-light">
+              <SearchComponent />
+                {/* Buscador  */}
+                <main className="bg-primary bg-opacity-75 white text-light rounded-4 ms-4">
                     {children}
                 </main>
                 
