@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Navigate, Route, Routes } from "react-router-dom"
 import { PageCheck } from "../pages/PageCheck"
 import { PageFarmacos } from "../pages/PageFarmacos"
 
@@ -8,6 +8,8 @@ export const FarmaRoutes = () => {
     <Routes>
         <Route path="/" element={<PageCheck />} />
         <Route path="/farmacos" element={<PageFarmacos />} />
+
+        <Route path="/*" element={<Navigate to='/' />} />
         
     </Routes>
   
